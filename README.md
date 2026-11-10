@@ -112,6 +112,16 @@ ln(p / (1 − p)) = −4,0916 + 0,0194 × Celular + 0,3010 × Banda larga
 
 ---
 
+## ▶️ Como executar
+
+1. Abra `GS_MLAM_CitizenTech.ipynb` no **Google Colab**, **Jupyter** ou **VS Code**.
+2. Execute todas as células em ordem (*Executar tudo*).
+3. O notebook lê a base diretamente deste repositório pelo link da variável `URL_BASE` (é preciso ter internet). Para rodar offline, coloque o `Final.csv` na mesma pasta do notebook e troque `URL_BASE` por `"Final.csv"`.
+
+Ao ser executado, o notebook também gera o arquivo `base_limpa_2017.csv` (base após a limpeza) na pasta de execução.
+
+---
+
 ## 🛠️ Bibliotecas
 
 Python 3.9+ e apenas:
